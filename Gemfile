@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Generate administration
-gem 'administrate', '~> 0.8'
+gem 'administrate', '~> 0.13'
 
 # Support for feature flags
 gem 'flipper', '~> 0.12'
