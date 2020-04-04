@@ -35,11 +35,11 @@ const getters = {
 
       const allowedTags = ['b', 'i', 'em', 'strong']
       const anchorOptions = {
-        files: false,
-        attributes: [
-          { name: 'target', value: '_blank' },
-          { name: 'rel', value: 'noreferrer' },
-        ]
+        exclude: url => url.toLowerCase().indexOf("file:///") === 0,
+        attributes: {
+          target: "_blank",
+          rel: "noreferrer"
+        }
       }
 
       return {
@@ -56,7 +56,7 @@ const getters = {
         updatedAt: new Date(task.updatedAt),
         startedSinceWeeks,
         replannedCount: task.plannedCount - 1,
-        formattedLabel: anchorme(sanitizeHtml(task.label, { allowedTags }), anchorOptions),
+        formattedLabel: anchorme({input: sanitizeHtml(task.label, { allowedTags }), options: anchorOptions}),
       }
     }
   },

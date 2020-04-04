@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "actioncable": "^5.2.3",
-    "anchorme": "^1.1.2",
+    "anchorme": "^2.0.0",
     "autosize": "^3.0.21",
     "chart.js": "^2.8.0",
     "marked": "^0.6.2",
