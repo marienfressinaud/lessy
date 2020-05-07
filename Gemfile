@@ -26,7 +26,7 @@ gem 'rails', '~> 5.1'
 gem 'redis', '~> 4.0'
 
 # Add authentication methods
-gem 'sorcery', '~> 0.12'
+gem 'sorcery', '~> 0.15'
 
 # Provide a lock system for DB
 gem 'with_advisory_lock', '~> 3.2'
