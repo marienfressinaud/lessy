@@ -11,7 +11,7 @@ gem 'flipper-active_record', '~> 0.12'
 gem 'jbuilder', '~> 2.7'
 
 # Manage pagination for us
-gem 'kaminari', '~> 1.1'
+gem 'kaminari', '~> 1.2'
 
 # Use sqlite3 as the database for Active Record
 gem 'pg', '~> 1.0'
