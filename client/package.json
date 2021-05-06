@@ -20,7 +20,7 @@
     "moment-range": "^3.1.1",
     "moment-timezone": "^0.5.25",
     "node-sass-json-importer": "^4.1.0",
-    "sanitize-html": "^1.20.1",
+    "sanitize-html": "^2.3.2",
     "v-tooltip": "^2.0.2",
     "vue": "^2.6.10",
     "vue-i18n": "^8.11.2",
