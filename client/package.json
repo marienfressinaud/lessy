@@ -14,7 +14,7 @@
     "actioncable": "^5.2.3",
     "anchorme": "^1.1.2",
     "autosize": "^3.0.21",
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "marked": "^0.6.2",
     "moment": "^2.24.0",
     "moment-range": "^3.1.1",
